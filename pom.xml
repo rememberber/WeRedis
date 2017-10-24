@@ -11,7 +11,9 @@
 
     <modules>
         <module>weredis-common</module>
+        <module>weredis-core</module>
         <module>weredis-plugin-idea</module>
+        <module>weredis-desktop</module>
     </modules>
 
     <build>
