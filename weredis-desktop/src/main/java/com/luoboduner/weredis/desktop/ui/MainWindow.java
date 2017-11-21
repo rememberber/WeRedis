@@ -3,8 +3,11 @@ package com.luoboduner.weredis.desktop.ui;
 import com.xiaoleilu.hutool.log.Log;
 import com.xiaoleilu.hutool.log.LogFactory;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JSplitPane;
+import javax.swing.JTree;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 
@@ -16,6 +19,12 @@ public class MainWindow {
     private static Log logger = LogFactory.get();
     public static JFrame frame;
     private JPanel mainPanel;
+    private JSplitPane splitPane;
+    private JPanel panelLeft;
+    private JPanel panelRight;
+    private JButton button1;
+    private JButton button2;
+    private JTree tree1;
 
     public MainWindow() {
 
