@@ -29,7 +29,9 @@ public class MainWindow {
 
         frame = new JFrame(ConstantsUI.APP_NAME);
         frame.setIconImage(ConstantsUI.IMAGE_ICON);
-        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize(); //得到屏幕的尺寸
+
+        //得到屏幕的尺寸
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         frame.setBounds((int) (screenSize.width * 0.1), (int) (screenSize.height * 0.08), (int) (screenSize.width * 0.8),
                 (int) (screenSize.height * 0.8));
 
